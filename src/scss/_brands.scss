@@ -1,0 +1,69 @@
+.brands {
+  border-top: 2px solid rgba(217, 255, 245, 1);
+}
+.brands__button--start,
+.brands__button--end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  gap: 5px;
+  flex-shrink: 0;
+}
+
+.main-header {
+  font-family: "TTLakes", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: rgba(126, 126, 130, 1);
+  font-weight: 400;
+  margin-top: 16px;
+  margin-left: 16px;
+  width: 288px;
+}
+
+.brands__button--start img,
+.brands__button--end img {
+  max-width: 100%;
+  height: auto;
+}
+
+.brands__button--start:hover,
+.brands__button--end:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
+.brands__button--start span {
+  font-family: 'TTLakes', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(27, 28, 33, 1);
+}
+
+.brands__button--end span {
+  font-family: 'TTLakes', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(27, 28, 33, 1);
+}
+
+.hidden-brand {
+  display: none;
+}
+.hidden-brand--tablet {
+  display: none;
+}
+.hidden-brand img {
+  width: 240px;
+  height: 72px;
+}
+
+.brands__button--start {
+  display: none;
+}
+.brands__button--end {
+  display: none;
+}

@@ -1,0 +1,53 @@
+.page-end {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+}
+.page-end__article {
+  margin-left: 16px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+  height: 90px;
+  width: 288px;
+}
+
+.page-end__button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  border: none;
+  background: transparent;
+  gap: 6px;
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.page-end__button:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
+.page-end__button span {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+}
+
+.page-end__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.page-navigation__divider {
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+}

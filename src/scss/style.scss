@@ -1,0 +1,15 @@
+// Entry point for styles: fonts first, then one @use per block
+@use 'fonts';
+@use 'blocks/page';
+@use 'page-navigation';
+@use 'site-services';
+@use 'page-end';
+@use 'brands';
+@use 'swiper';
+@use 'media';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
