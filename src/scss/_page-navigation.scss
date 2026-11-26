@@ -7,11 +7,6 @@ body {
   display: none;
 }
 
-.page-end__article--tablet,
-.page-end__article--desktop {
-  display: none;
-}
-
 .page-navigation {
   border-bottom: 1px solid #d9fff5;
 }
@@ -53,6 +48,23 @@ body {
   padding: 0;
   border: none;
   background: transparent;
+}
+
+.page-navigation__button--burger {
+  border: none;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 40px;
+  padding: 0;
+}
+
+.page-navigation__button--burger:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
 }
 
 .page-navigation__button:hover {

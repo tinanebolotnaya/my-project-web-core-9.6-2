@@ -1,0 +1,96 @@
+.services-card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.services-card__label {
+  font-size: 14px;
+  color: rgba(126, 126, 130, 1);
+}
+
+.services-card__text {
+  font-size: 14px;
+  color: rgba(27, 28, 33, 1);
+}
+
+.services-card__term {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.services-card__footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.services-card__button {
+  width: 119px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  align-self: flex-end;
+}
+
+.services-card__button:hover {
+  filter: brightness(0.8);
+}
+
+.prices-info {
+  margin-top: 40px;
+  margin-left: 16px;
+}
+
+.prices-info__text {
+  font-size: 14px;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.prices-info__link {
+  outline: none;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.prices-info__link img {
+  width: 24px;
+  height: auto;
+}
+
+.prices-info__text-link {
+  font-size: 16px;
+  color: rgba(27, 28, 33, 1);
+  font-weight: 600;
+}
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(126, 126, 130, 1);
+  margin-top: 50px;
+  width: 100%;
+}
+
+.site-footer__policy {
+  outline: none;
+  text-decoration: none;
+  color: rgba(126, 126, 130, 1);
+  margin-top: 10px;
+}
+
+.site-footer__disclaimer {
+  margin-top: 10px;
+  align-self: center;
+}
